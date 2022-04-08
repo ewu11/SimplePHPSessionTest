@@ -1,0 +1,90 @@
+#headerContainer {
+    width: 50%;
+    margin: auto;
+    border: 1px solid black;
+    text-align: center;
+    border-bottom-style: none;
+    margin-bottom: 5%;
+    box-shadow: 5px -5px gray;
+}
+
+#headerContainer > h1:hover {
+    text-decoration: underline;
+    color: chocolate;
+    cursor: default;
+}
+
+#bodyContainer {
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+    border-top-style: none;
+    border-bottom-style: none;
+    text-align: center;
+    padding: 3%;
+    box-shadow: gray;
+    margin-bottom: 5%;
+}
+
+#horiLine1 {
+    width: 90%;
+    margin-bottom: 5%;
+}
+
+#horiLine2 {
+    width: 70%;
+    margin-bottom: 5%;
+}
+
+span {
+    font-size: 120%;
+    background-color: aquamarine;
+}
+
+span:hover {
+    background-color: blanchedalmond;
+    cursor: default;
+}
+
+#footerContainer {
+    width: 50%;
+    margin: auto;
+    border: 1px solid black;
+    text-align: center;
+    border-top-style: none;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    box-shadow: 5px 5px gray;
+}
+
+#footerContainer > h2:hover{
+    cursor: default;
+    text-decoration: underline;
+    color: chocolate;
+}
+
+#extraContainer {
+    width: 50%;
+    margin: auto;
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#extraContainer > p {
+    display: block;
+}
+
+fieldset {
+    border: 1px solid black;
+}
+
+fieldset legend{
+    margin: auto;
+}
+
+fieldset legend:hover{
+    cursor: default;
+    color: chocolate;
+}
